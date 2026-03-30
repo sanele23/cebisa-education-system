@@ -152,18 +152,18 @@ export function LoginView() {
 
         <div className="relative z-10 text-center">
           {/* Logo */}
-          <div className="w-20 h-20 rounded-2xl bg-white/15 backdrop-blur-sm border border-white/20 flex items-center justify-center mx-auto mb-6 shadow-xl overflow-hidden">
+          <div className="w-80 h-80 rounded-2xl bg-white/15 backdrop-blur-sm border border-white/20 flex items-center justify-center mx-auto mb-6 shadow-xl overflow-hidden">
             <Image
-              src="/cebisa-education-system/cebisa-logo.jpeg"
+              src="/cebisa-logo.jpeg"
               alt="Cebisa Logo"
-              className="w-16 h-16 object-contain"
-              width={64}
-              height={64}
+              className="w-80 h-80 object-contain"
+              width={320}
+              height={320}
             />
           </div>
 
-          <h1 className="text-4xl font-bold mb-2">Cebisa Education</h1>
-          <p className="text-white/70 text-lg mb-12">
+          {/* <h1 className="text-4xl font-bold mb-2">Cebisa Education</h1> */}
+          <p className="text-white/70 text-xl font-semibold mb-12">
             School Management System
           </p>
 
