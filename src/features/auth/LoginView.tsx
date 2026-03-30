@@ -199,11 +199,13 @@ export function LoginView() {
         <div className="w-full max-w-md">
           {/* Mobile logo */}
           <div className="flex lg:hidden items-center gap-3 mb-8">
-            <div className="w-10 h-10 rounded-xl bg-brand-gradient flex items-center justify-center overflow-hidden">
-              <img
-                src="/cebisa-logo.jpg"
+            <div className="w-9 h-9 rounded-xl bg-brand-gradient flex items-center justify-center overflow-hidden">
+              <Image
+                src="/cebisa-logo.jpeg"
                 alt="Cebisa Logo"
-                className="w-8 h-8 object-contain"
+                className="w-11 h-11 object-contain"
+                width={44}
+                height={44}
               />
             </div>
             <div>
