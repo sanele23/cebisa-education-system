@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import {
   GraduationCap,
   BookOpen,
@@ -152,10 +153,12 @@ export function LoginView() {
         <div className="relative z-10 text-center">
           {/* Logo */}
           <div className="w-20 h-20 rounded-2xl bg-white/15 backdrop-blur-sm border border-white/20 flex items-center justify-center mx-auto mb-6 shadow-xl overflow-hidden">
-            <img
+            <Image
               src="/cebisa-education-system/cebisa-logo.jpeg"
               alt="Cebisa Logo"
               className="w-16 h-16 object-contain"
+              width={64}
+              height={64}
             />
           </div>
 

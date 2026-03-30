@@ -2,7 +2,7 @@
 
 import { Bell, Search, Menu } from "lucide-react";
 import { useAuthStore } from "@/lib/store/authStore";
-import { useState } from "react";
+//
 
 interface NavbarProps {
   title: string;

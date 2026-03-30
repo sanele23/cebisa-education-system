@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 import {
   LayoutDashboard,
   BookOpen,
@@ -136,10 +137,13 @@ export function Sidebar() {
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-5 border-b border-white/10">
         <div className="w-9 h-9 rounded-xl bg-brand-gradient flex items-center justify-center flex-shrink-0 overflow-hidden">
-          <img
+          <Image
             src="/cebisa-education-system/cebisa-logo.jpeg"
             alt="Cebisa Logo"
             className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            priority
           />
         </div>
         {!collapsed && (
